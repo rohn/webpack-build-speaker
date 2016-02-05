@@ -1,0 +1,31 @@
+{
+  "name": "webpack-build-speaker",
+  "version": "0.1.0",
+  "description": "A Webpack plugin that speaks notifications for build steps using the Mac OS X say command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "keywords": [
+    "webpack",
+    "notification",
+    "notify",
+    "say",
+    "alert",
+    "build",
+    "compilation",
+    "compile"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohn/webpack-build-speaker.git"
+  },
+  "author": "rohn <rohn@intensiveporpoises.com>",
+  "license": "MIT",
+  "dependencies": {
+    "say": "0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.1.0"
+  }
+}
